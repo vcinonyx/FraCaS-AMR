@@ -2183,13 +2183,14 @@
 # ::snt Most Europeans can travel freely within Europe.
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :mod (c / continent :wiki "Europe"
-                  :name (n / name :op1 "Europe"))
-            :mod (m / most))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :mod c
+                      :mod (m / most))
+            :ARG1 (c / continent
+                     :wiki "Europe"
+                     :name (n / name
+                              :op1 "Europe"))
             :manner (f / free-04)))
 
 # ::id fracas-074.hypothesis_unknown ::date 2017-03-08T23:09:30
