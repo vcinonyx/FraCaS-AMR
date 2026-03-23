@@ -683,15 +683,17 @@
 
 # ::id fracas-026.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt Most Europeans can travel freely within Europe.
+# ::save-date Fri Mar 20, 2026 16:45
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :mod (c / continent :wiki "Europe"
-                  :name (n / name :op1 "Europe"))
-            :mod (m / most))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :mod c
+                      :mod (m / most))
+            :ARG1 (c / continent
+                     :wiki "Europe"
+                     :name (n / name
+                              :op1 "Europe"))
             :manner (f / free-04)))
 
 # ::id fracas-027.premise_0 ::date 2017-03-08T23:09:30
@@ -1184,15 +1186,17 @@
 
 # ::id fracas-042.premise_0 ::date 2017-03-08T23:09:30
 # ::snt Most Europeans can travel freely within Europe.
+# ::save-date Fri Mar 20, 2026 16:46
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :mod (c / continent :wiki "Europe"
-                  :name (n / name :op1 "Europe"))
-            :mod (m / most))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :mod c
+                      :mod (m / most))
+            :ARG1 (c / continent
+                     :wiki "Europe"
+                     :name (n / name
+                              :op1 "Europe"))
             :manner (f / free-04)))
 
 # ::id fracas-042.premise_1 ::date 2017-03-08T23:09:30
@@ -1468,15 +1472,19 @@
 
 # ::id fracas-050.hypothesis_unknown ::date 2017-03-08T23:09:30
 # ::snt Every resident of the North American continent can travel freely within Europe.
+# ::save-date Fri Mar 20, 2026 16:46
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :ARG0-of (r / reside-01
-                  :ARG1 (c / continent :wiki "North_America" :name (n / name :op1 "North" :op2 "America")))
-            :mod (e / every))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :ARG0-of (r / reside-01
+                                  :ARG1 c)
+                      :mod (e / every))
+            :ARG1 (c / continent
+                     :wiki "North_America"
+                     :name (n / name
+                              :op1 "North"
+                              :op2 "America"))
             :ARG1-of (f / free-04)))
 
 # ::id fracas-051.premise_0 ::date 2017-03-08T23:09:30
@@ -1718,13 +1726,14 @@
 # ::snt Most Europeans can travel freely within Europe.
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :mod (c / continent :wiki "Europe"
-                  :name (n / name :op1 "Europe"))
-            :mod (m / most))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :mod c
+                      :mod (m / most))
+            :ARG1 (c / continent
+                     :wiki "Europe"
+                     :name (n / name
+                              :op1 "Europe"))
             :manner (f / free-04)))
 
 # ::id fracas-059.premise_0 ::date 2017-03-08T23:09:30
@@ -1910,15 +1919,19 @@
 
 # ::id fracas-066.premise_0 ::date 2017-03-08T23:09:30
 # ::snt Every resident of the North American continent can travel freely within Europe.
+# ::save-date Fri Mar 20, 2026 16:49
 # ::user timjogorman
 (p / permit-01
-      :ARG0 (p2 / person
-            :ARG0-of (r / reside-01
-                  :ARG1 (c / continent :wiki "North_America" :name (n / name :op1 "North" :op2 "America")))
-            :mod (e / every))
-      :ARG1 (t / travel-01
-            :ARG0 p2
-            :ARG1 c
+   :ARG1 (t / travel-01
+            :ARG0 (p2 / person
+                      :ARG0-of (r / reside-01
+                                  :ARG1 c)
+                      :mod (e / every))
+            :ARG1 (c / continent
+                     :wiki "North_America"
+                     :name (n / name
+                              :op1 "North"
+                              :op2 "America"))
             :ARG1-of (f / free-04)))
 
 # ::id fracas-066.premise_1 ::date 2017-03-08T23:09:30
