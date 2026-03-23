@@ -15,12 +15,15 @@
 # ::id fracas-001.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt There was an Italian who became the world's greatest tenor.
 # ::user timjogorman
-(t / tenor
-      :mod (g / great
-            :degree (m / most)
-            :compared-to (w / world))
-      :mod (c / country :wiki "Italy"
-            :name (n / name :op1 "Italy")))
+(h / have-degree-91
+   :ARG1 (t / tenor
+      :mod (c / country
+         :name (n / name
+            :op1 "Italy")
+         :wiki "Italy"))
+   :ARG2 (g / great)
+   :ARG3 (m / most)
+   :ARG5 (w / world))
 
 # ::id fracas-002.premise_0 ::date 2017-03-08T23:09:30
 # ::snt Every Italian man wants to be a great tenor.
@@ -6074,12 +6077,17 @@
 # ::id fracas-220.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n3 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n3 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-220.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-XZ is fast.
@@ -6098,12 +6106,17 @@
 # ::id fracas-221.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n3 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n3 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-221.hypothesis_unknown ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is fast.
@@ -6115,12 +6128,17 @@
 # ::id fracas-222.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n3 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n3 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-222.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is fast.
@@ -6139,12 +6157,17 @@
 # ::id fracas-223.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n3 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n3 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-223.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is slow.
@@ -6163,12 +6186,17 @@
 # ::id fracas-224.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-224.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-XZ is fast.
@@ -6187,12 +6215,17 @@
 # ::id fracas-225.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-225.hypothesis_unknown ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is fast.
@@ -6204,12 +6237,17 @@
 # ::id fracas-226.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-226.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is fast.
@@ -6228,12 +6266,17 @@
 # ::id fracas-227.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-227.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is slow.
@@ -6252,42 +6295,62 @@
 # ::id fracas-228.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-228.hypothesis_unknown ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n3 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n3 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-229.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is as fast as the ITEL-XZ.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (e / equal)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (e / equal)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-229.hypothesis_no ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is slower than the ITEL-XZ.
 # ::user timjogorman
-(s / slow-05
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (p2 / product :wiki -
-            :name (n2 / name :op1 "ITEL-XZ")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (s / slow-05)
+   :ARG3 (m / more)
+   :ARG4 (p2 / product
+      :name (n2 / name
+         :op1 "ITEL-XZ")
+      :wiki "-"))
 
 # ::id fracas-230.premise_0 ::date 2017-03-08T23:09:30
 # ::snt ITEL won more orders than APCOM did.
@@ -6587,36 +6650,51 @@
 # ::id fracas-242.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than 500 MIPS.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki - :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (i2 / instruct-01
-            :frequency (r / rate-entity-91
-                  :ARG1 5000000
-                  :ARG2 (t / temporal-quantity :quant 1
-                        :unit (s2 / second)))))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (i2 / instruct-01
+      :frequency (r / rate-entity-91
+         :ARG1 "5000000"
+         :ARG2 (t / temporal-quantity
+            :quant "1"
+            :unit (s2 / second)))))
 
 # ::id fracas-242.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-ZX is slower than 500 MIPS.
 # ::user timjogorman
-(s / slow-05
-      :ARG1 (p / product :wiki - :name (n / name :op1 "ITEL-ZX"))
-      :degree (m / more)
-      :compared-to (i2 / instruct-01
-            :frequency (r / rate-entity-91
-                  :ARG1 5000000
-                  :ARG2 (t / temporal-quantity :quant 1
-                        :unit (s2 / second)))))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "ITEL-ZX")
+      :wiki "-")
+   :ARG2 (s / slow-05)
+   :ARG3 (m / more)
+   :ARG4 (i2 / instruct-01
+      :frequency (r / rate-entity-91
+         :ARG1 "5000000"
+         :ARG2 (t / temporal-quantity
+            :quant "1"
+            :unit (s2 / second)))))
 
 # ::id fracas-242.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-243.premise_0 ::date 2017-03-08T23:09:30
 # ::snt ITEL sold 3000 more computers than APCOM.
@@ -6701,27 +6779,37 @@
 # ::snt APCOM has a more important customer than ITEL has.
 # ::user timjogorman
 (h2 / have-03
-      :ARG0 (c / company :wiki -
-            :name (n / name :op1 "APCOM"))
-      :ARG1 (c2 / customer
-            :mod (i2 / important
-                  :degree (m / more)
-                  :compared-to (c3 / customer
-                        :ARG1-of (h4 / have-03
-                              :ARG0 (c4 / company :wiki -
-                                    :name (n2 / name :op1 "ITEL")))))))
+    :ARG0 (c / company
+             :wiki -
+             :name (n / name
+                      :op1 "APCOM"))
+    :ARG1 (c2 / customer
+              :ARG1-of (h1 / have-degree-91
+                           :ARG2 (i2 / important-01)
+                           :ARG3 (m / more)
+                           :ARG4 (c3 / customer
+                                     :ARG1-of (h4 / have-03
+                                                  :ARG0 (c4 / company
+                                                            :wiki -
+                                                            :name (n2 / name
+                                                                      :op1 "ITEL")))))))
 
 # ::id fracas-246.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than every ITEL computer.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer
-            :mod (c2 / company :wiki -
-                  :name (n2 / name :op1 "ITEL"))
-            :mod (e / every)))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :mod (c2 / company
+         :name (n2 / name
+            :op1 "ITEL")
+         :wiki "-")
+      :mod (e / every)))
 
 # ::id fracas-246.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-ZX is an ITEL computer.
@@ -6734,24 +6822,34 @@
 # ::id fracas-246.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-247.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than some ITEL computer.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer
-            :mod (c2 / company :wiki -
-                  :name (n2 / name :op1 "ITEL"))
-            :mod (s / some)))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :mod (c2 / company
+         :name (n2 / name
+            :op1 "ITEL")
+         :wiki "-")
+      :mod (s / some)))
 
 # ::id fracas-247.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-ZX is an ITEL computer.
@@ -6764,23 +6862,33 @@
 # ::id fracas-247.hypothesis_unknown ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-248.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than any ITEL computer.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (p2 / product
-            :mod (c / company :wiki -
-                  :name (n2 / name :op1 "ITEL"))))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (p2 / product
+      :mod (c / company
+         :name (n2 / name
+            :op1 "ITEL")
+         :wiki "-")))
 
 # ::id fracas-248.premise_1 ::date 2017-03-08T23:09:30
 # ::snt The ITEL-ZX is an ITEL computer.
@@ -6793,58 +6901,87 @@
 # ::id fracas-248.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-249.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX and the ITEL-ZY.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (a / and
-            :op1 (c / computer :wiki -
-                  :name (n2 / name :op1 "ITEL-ZX"))
-            :op2 (c3 / computer :wiki -
-                  :name (n3 / name :op1 "ITEL-ZY"))))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (a / and
+      :op1 (c / computer
+         :name (n2 / name
+            :op1 "ITEL-ZX")
+         :wiki "-")
+      :op2 (c3 / computer
+         :name (n3 / name
+            :op1 "ITEL-ZY")
+         :wiki "-")))
 
 # ::id fracas-249.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-250.premise_0 ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX or the ITEL-ZY.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (a / and
-            :op1 (c / computer :wiki -
-                  :name (n2 / name :op1 "ITEL-ZX"))
-            :op2 (c3 / computer :wiki -
-                  :name (n3 / name :op1 "ITEL-ZY"))))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (a / and
+      :op1 (c / computer
+         :name (n2 / name
+            :op1 "ITEL-ZX")
+         :wiki "-")
+      :op2 (c3 / computer
+         :name (n3 / name
+            :op1 "ITEL-ZY")
+         :wiki "-")))
 
 # ::id fracas-250.hypothesis_yes ::date 2017-03-08T23:09:30
 # ::snt The PC-6082 is faster than the ITEL-ZX.
 # ::user timjogorman
-(f / fast-02
-      :ARG1 (p / product :wiki -
-            :name (n / name :op1 "PC-6082"))
-      :degree (m / more)
-      :compared-to (c / computer :wiki -
-            :name (n2 / name :op1 "ITEL-ZX")))
+(h / have-degree-91
+   :ARG1 (p / product
+      :name (n / name
+         :op1 "PC-6082")
+      :wiki "-")
+   :ARG2 (f / fast-02)
+   :ARG3 (m / more)
+   :ARG4 (c / computer
+      :name (n2 / name
+         :op1 "ITEL-ZX")
+      :wiki "-"))
 
 # ::id fracas-251.premise_0 ::date 2017-03-08T23:09:30
 # ::snt ITEL has a factory in Birmingham.
@@ -9286,4 +9423,3 @@
                   :ARG0 p2
                   :ARG1 (c3 / clause
                         :mod (c4 / crucial)))))
-
