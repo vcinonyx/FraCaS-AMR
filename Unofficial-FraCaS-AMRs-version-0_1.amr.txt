@@ -4756,7 +4756,7 @@
             :name (n / name :op1 "John"))
       :ARG1 (k / know-01
             :ARG0 p
-            :ARG1 (w2 / woman
+            :ARG1 (w2 / man
                   :ARG0-of (w3 / work-01
                         :mod (p2 / part-time)))))
 
